@@ -54,8 +54,11 @@ header ul li a {
 }
 header ul li a.hover,
 header ul li a.active {
-    border-bottom: #8071D0;
-    color:grey ;
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #8071D0;
+    text-decoration-thickness: 3px; ;
 }
 /*main*/
 main {
