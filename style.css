@@ -113,18 +113,15 @@ main .content ul li .tag {
     background-color: #fed7da;
     display: inline-block;
 }
-main .content ul li .tag{
-    background:#fe7448 ;
+#dmm {
+ background-color: #fed7da;
 }
-main .content ul li .tag {
-    background:#9ed095 ;
+#blr {
+ background-color: #fd6534
 }
-main .content ul li .tag {
-    background: #fee1a0;
+#ill {
+ background-color: #9ed095;
 }
-main .content ul li.active {
-    background: #fff;
-}
-main .content ul li .date {
-    color: grey;
+ #ref {
+ background-color: #ffe4a0;
 }
