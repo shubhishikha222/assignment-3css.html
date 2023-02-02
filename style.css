@@ -1,0 +1,127 @@
+/* common */
+
+* {
+ box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FE5D20 ;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.common-btn {
+    background-color: #FFD8DB;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.common-btn.blue {
+    background-color: 5243C0 ;
+    color:#5243C0 ;
+}
+/* header*/
+header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header img {
+    width: 100px;
+}
+
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    color: grey;
+    margin: 0 15px;
+    padding-bottom: 5px;
+}
+header ul li a.hover,
+header ul li a.active {
+    border-bottom: #8071D0;
+    color:grey ;
+}
+/*main*/
+main {
+    display: flex;
+    justify-content: space-between;
+}
+main .content,
+main .banner {
+    padding: 30px;
+}
+main .content {
+    background-color:#ffffff;
+}
+main .content div {
+    display: flex;
+    margin: 10px 0 20px;
+}
+main  .content .btns button {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border: none;
+    background-image: url('arrow-up.png');
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main .content .btns button:last-child {
+    background-image: url('arrow-down.png');
+}
+main .content ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    width: 330px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+main .content ul li:last-child {
+    margin-bottom: 0px;
+}
+main .content ul li span.title {
+    width: 130px;
+}
+main .content ul li .tag {
+    width: 23px;
+    height: 14p;
+    border-radius: 10px;
+    background-color: #fed7da;
+    display: inline-block;
+}
+main .content ul li .tag{
+    background:#fe7448 ;
+}
+main .content ul li .tag {
+    background:#9ed095 ;
+}
+main .content ul li .tag {
+    background: #fee1a0;
+}
+main .content ul li.active {
+    background: #fff;
+}
+main .content ul li .date {
+    color: grey;
+}
